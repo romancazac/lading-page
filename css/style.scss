@@ -1,0 +1,195 @@
+    * {
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+     :focus,
+     :active {
+        outline: none;
+    }
+    
+    a:focus,
+    a:active {
+        outline: none;
+    }
+    
+    nav,
+    footer,
+    header,
+    aside {
+        display: block;
+    }
+    
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        font-size: 100%;
+        line-height: 1;
+        font-size: 14px;
+        -ms-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+    }
+    
+    input,
+    button,
+    textarea {
+        font-family: inherit;
+    }
+    
+    input::-ms-clear {
+        display: none;
+    }
+    
+    button {
+        cursor: pointer;
+    }
+    
+    button::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
+    a{
+        color: inherit;
+    }
+    a,
+    a:visited {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    ul,
+    li {
+        list-style: none;
+    }
+    
+    img {
+        vertical-align: top;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: inherit;
+        font-weight: inheri
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    
+    /*@font-face {
+        font-family: 'Balqis';
+        src: url("../fonts/Balqis.eot");
+        src: local("☺"), url("../fonts/Balqis.woff") format("woff"), url("../fonts/Balqis.ttf") format("truetype"), url("../fonts/Balqis.svg") format("svg");
+        font-weight: normal;
+        font-style: normal;
+    }*/
+     /*%Balqis {
+        font-family: 'Balqis';
+        font-weight: normal;
+        font-style: normal;
+    }*/
+    @font-face {
+        font-family: 'Neo Sans Pro';
+        src: url('../fonts/NeoSansPro-Bold.eot');
+        src: local('Neo Sans Pro Bold'), local('NeoSansPro-Bold'),
+            url('../fonts/NeoSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/NeoSansPro-Bold.woff') format('woff'),
+            url('../fonts/NeoSansPro-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Neo Sans Pro';
+        src: url('../fonts/NeoSansPro-Medium.eot');
+        src: local('Neo Sans Pro Medium'), local('NeoSansPro-Medium'),
+            url('../fonts/NeoSansPro-Medium.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/NeoSansPro-Medium.woff') format('woff'),
+            url('../fonts/NeoSansPro-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Neo Sans Pro';
+        src: url('../fonts/NeoSansPro-Regular.eot');
+        src: local('../fonts/Neo Sans Pro'), local('NeoSansPro-Regular'),
+            url('NeoSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/NeoSansPro-Regular.woff') format('woff'),
+            url('../fonts/NeoSansPro-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Neo Sans Pro';
+        src: url('../fonts/NeoSansPro-Light.eot');
+        src: local('Neo Sans Pro Light'), local('NeoSansPro-Light'),
+            url('../fonts/NeoSansPro-Light.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/NeoSansPro-Light.woff') format('woff'),
+            url('../fonts/NeoSansPro-Light.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+   
+    
+    body {
+        font-family: 'Neo Sans Pro';
+        color: #151515;
+        
+        background: #ffffff;
+      
+        
+    }
+   
+  
+    .container {
+        
+   
+       max-width: 1700px;
+       padding: 0 20px;
+       margin: 0 auto;
+       @media(max-width:1700px){
+           max-width: 1000px;
+           padding: 0 40px;
+           
+       }
+    
+    }
+    .little-container {
+        max-width: 1340px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .wrapper{
+       display: flex;
+        flex-direction: column;
+        min-width: 0;
+       
+        overflow: hidden;
+    }
+    .slick-arrow{background: 0;}
+
+
+    @import "_header.scss";
+    @import "_main.scss";
+    @import "_footer.scss";
+    
+   
